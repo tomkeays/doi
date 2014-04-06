@@ -13,4 +13,4 @@ This script pulls bibliographic data from the DOI resolver formatted as JSON, wh
 Basically a riff on the doi_citation script, but outputs [COinS](http://ocoins.info) rather than formatted citations. Like all of these scripts so far, only good for generating OpenURL context objects for journal articles. 
 ## doi_csl.php
 
-After I wrote the doi_citation script, I learned that you could query the DOI resolver with a different content type request to output a citation style following [Citation Style Language style rules](https://github.com/citation-style-language/styles). The output is plain text (so will be missing required bolding and emphasis), but it saves a lot of time and scales better than writing the rules yourself. 
+After I wrote the doi_citation script, I learned that you could query the DOI resolver with a different content type request that it output a citation style following [Citation Style Language style rules](https://github.com/citation-style-language/styles). The output is plain text (so may be missing required bolding and emphasis for some styles), but it saves a lot of time and scales better than writing the rules yourself. 
